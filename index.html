@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portable Generator Service Log Template</title>
+  <meta name="description" content="Use a printable portable generator service log to track runtime, maintenance, parts, receipts, and the next due date or operating-hour limit.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Portable Generator Service Log Template">
+  <meta property="og:description" content="Use a printable portable generator service log to track runtime, maintenance, parts, receipts, and the next due date or operating-hour limit.">
+  <style>
+    :root { color-scheme: light; --ink: #202925; --green: #123f30; --muted: #4a5b52; --line: #cbd9cf; --tint: #eef5ef; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f7f4; color: var(--ink); font: 1.0625rem/1.65 system-ui, sans-serif; }
+    main { max-width: 52rem; margin: 0 auto; padding: clamp(2rem, 6vw, 4rem) clamp(1rem, 5vw, 3rem); background: #fff; }
+    h1, h2, h3 { color: var(--green); line-height: 1.18; text-wrap: balance; }
+    h1 { margin: 0 0 1rem; font-size: clamp(2rem, 5vw, 3.25rem); }
+    h2 { margin: 2.4rem 0 .7rem; font-size: clamp(1.45rem, 3.5vw, 1.95rem); }
+    h3 { margin: 1.65rem 0 .55rem; font-size: 1.15rem; }
+    p { margin: 0 0 1rem; }
+    a { color: #125e46; text-underline-offset: .17em; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+    nav { margin: 1.45rem 0; padding: .9rem 1.15rem; background: var(--tint); border-radius: .5rem; }
+    nav ol { margin: .35rem 0 0; }
+    ol, ul { padding-inline-start: 1.5rem; }
+    li + li { margin-top: .35rem; }
+    .eyebrow { color: var(--muted); font-size: .82rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .note { padding: .9rem 1.15rem; border-inline-start: .22rem solid #478666; background: var(--tint); }
+    table { width: 100%; border-collapse: collapse; font-size: .96rem; margin: 1rem 0; }
+    caption { text-align: left; margin-bottom: .4rem; font-weight: 700; color: var(--green); }
+    th, td { border: 1px solid var(--line); padding: .6rem .72rem; vertical-align: top; text-align: left; }
+    thead { background: var(--tint); }
+    code { font-size: .94em; overflow-wrap: anywhere; }
+    @media (max-width: 420px) { th, td { padding: .45rem; } }
+    @media print { body { background: #fff; } main { padding: 0; } }
+  
+    .table-wrap { overflow-x: auto; }
+    .log-table { min-width: 40rem; }
+    .log-table td { height: 2.5rem; }
+    @media print {
+      .table-wrap { overflow: visible; }
+      .log-table { min-width: 0; }
+      table { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <header>
+        <p class="eyebrow">Generator Service Records</p>
+        <h1>Portable Generator Service Log Template</h1>
+        <p>When was the last oil service? Which part did the shop install? How many hours did the generator run during the outage? A simple <strong>generator service log</strong> answers those questions without a hunt through receipts or old messages.</p>
+        <p>Use the template below to record completed work, keep track of operating hours, and hand a technician a useful history. You can print it or copy the fields into a spreadsheet.</p>
+      </header>
+
+      <section>
+        <h2>1. Put the generator’s details at the top</h2>
+        <p>Keep one log per generator. Start with the make, full model, serial number, and purchase date if you know it. Add the engine model when it has its own plate, then record which owner’s manual you’re using. <a href="https://powerequipment.honda.com/support/owners-manuals/generators/eu">Honda’s manual library</a>, for example, lists editions by model type and serial range. Saving the edition with your log helps you find the right schedule again.</p>
+        <div class="note">
+          <p><strong>Make and full model</strong> ____________________</p>
+          <p><strong>Generator and engine serials, if applicable</strong> ____________________</p>
+          <p><strong>Owner’s manual edition or PDF filename</strong> ____________________</p>
+          <p><strong>Starting hour reading and date</strong> ____________________</p>
+        </div>
+        <p>If you bought the generator used and the history is incomplete, write “unknown” for the earlier service dates. Add any receipts the seller gave you and begin recording the work you can verify.</p>
+      </section>
+
+      <section>
+        <h2>2. Use one row for each service event</h2>
+        <p>Write the date and total <strong>operating hours</strong>, then describe the work in a few words. Add the product or part number if you installed something. Leave a space for the next due date and hours where the manual gives both. If a technician performed the service, keep the work order number so you can pull up the details later.</p>
+        <div class="table-wrap" role="region" aria-label="Printable service log template" tabindex="0">
+          <table class="log-table">
+            <caption>Blank generator service log</caption>
+            <thead><tr><th scope="col">Date</th><th scope="col">Total hours</th><th scope="col">Work completed</th><th scope="col">Part or oil</th><th scope="col">Receipt or notes</th><th scope="col">Next due</th></tr></thead>
+            <tbody>
+              <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>A useful entry might read “May 4 · 34.2 total hours · air filter inspected · no replacement · see manual page saved with receipt.” That tells you exactly what happened. “Full service” leaves you guessing which parts were checked or changed.</p>
+      </section>
+
+      <section>
+        <h2>3. Record runtime even when no service is done</h2>
+        <p>After an outage or a planned run, jot down the latest meter reading. If there’s no meter, record start and stop times and mark the result as an estimate. Be consistent about what you track. A run that began at 7 p.m. and ended at 9 p.m. adds roughly two hours. Keep estimated hours separate from any verified meter reading.</p>
+        <p>Write down observations worth passing to a repair shop, such as an unfamiliar sound, repeated shutdown, or the date a fault first appeared. Include what the unit was doing when it happened. That gives a technician a clearer starting point than a note that simply says “problem.”</p>
+      </section>
+
+      <section>
+        <h2>4. Turn the record into your next reminder</h2>
+        <p>At the end of each service, open the <strong>manufacturer’s maintenance schedule</strong> and record the next due point. If an entry is governed by both elapsed time and operating hours, write both in the log. When the manual says whichever comes first, the earlier threshold is the one to act on.</p>
+        <p>Keep the log as a record of work already done. Put future dates and hour checks in a <a href="https://gensparkplug.bitbucket.io/">generator maintenance calendar for occasional use</a> so you can see what is coming due even when the generator spends most of its time in storage.</p>
+        <p>File receipts and dealer notes with the log. Before a service visit, share the relevant work history and the model details directly with the shop. That way the technician can see which parts were installed and what still needs investigation.</p>
+      </section>
+
+      <section>
+        <h2>Keep receipts and observations easy to find</h2>
+        <p>The log is easiest to maintain when there’s a simple place to put the evidence. Save a receipt under a filename with the date, generator model, and a short task description. Then copy that filename or work order number into the row. If a shop gives you a detailed invoice, keep it alongside the log and summarize the work in one line.</p>
+        <p>Use different wording for an inspection, a completed replacement, and a recommendation. For example, “filter inspected,” “filter replaced,” and “dealer recommends filter at next visit” describe three different events. That distinction is useful if you hand the records to a new technician or sell the machine later.</p>
+        <h3>What if the hour meter has been replaced?</h3>
+        <p>Record the date, the last reading on the old meter if you have it, and the first reading on the new one. Keep the old and new readings visible in the log. If the previous hours are unknown, label the new reading as hours since the meter change and ask your technician how to track service from that point.</p>
+        <h3>What should I record after a part comes back out?</h3>
+        <p>Add another row for the removal and note why it happened. Keep the earlier installation in the history. That helps you tell the difference between a wrong-fit order, a part returned unused, and a part that was installed and later replaced.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
